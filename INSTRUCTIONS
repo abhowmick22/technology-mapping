@@ -1,0 +1,5 @@
+Description :  This program maps a technology independent logic optimized circuit onto a given technology and optimizes the 
+implementation for minimum area. This code takes a graph file as graphml input and uses a specified technology library to 
+implement the given function. For additional details, refer to doc.pdf. Also, the code is copiously commented. 
+
+How to build : g++ techmapping.cpp -lboost_graph

@@ -1,0 +1,23 @@
+// all lines have to end with a tab and all words in a line are separated by tab
+
+Library_name	65nm_technology_node	
+Nbr_gates	3	
+
+GATE	
+Gate_name	AND	
+Nbrpatterns	1	
+Pattern_files	AND_1.graphml	
+Gate_cost	2	
+
+GATE	
+Gate_name	NOT	
+Nbrpatterns	1	
+Pattern_files	NOT_1.graphml	
+Gate_cost	1	
+
+GATE	
+Gate_name	OR	
+Nbrpatterns	1	
+Pattern_files	OR_1.graphml	
+Gate_cost	3	
+
